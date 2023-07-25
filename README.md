@@ -1,6 +1,6 @@
 # Frogger
 
-All of your changes, code, and game files should be in the src folder.
+My implementation of Frogger using functional reactive programming.
 
 ## Development
 
