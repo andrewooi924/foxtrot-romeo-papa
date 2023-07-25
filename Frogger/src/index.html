@@ -1,0 +1,78 @@
+<html style="background-color: beige;">
+  <head>
+    <title>FIT2102 A1 2022</title>
+    <style>
+      #gameOver {
+        font-size: 60px;
+      }
+      #score {
+        font-size: 30px;
+      }
+      .canvas {
+        display: -webkit-inline-flex;
+        column-gap: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <marquee direction="down" behavior="alternate" scrollamount="4">
+    <h2><font color="forestgreen">
+      Frogger
+    </font></h2>
+    </marquee>
+    <div class="canvas">
+    <svg id="svgCanvas" width="600" height="600">
+      <rect width="600", height="70", style="fill:saddlebrown", transform="translate(0,530)"></rect>
+      <rect width="600", height="175", style="fill:dimgray", transform="translate(0,355)"></rect>
+      <rect width="600", height="65", style="fill:lightcoral", transform="translate(0,290)"></rect>
+      <rect width="600", height="185", style="fill:dodgerblue", transform="translate(0,105)"></rect>
+      <rect width="600", height="35", style="fill:darkorange", transform="translate(0,0)"></rect>
+      <rect width="80", height="105", style="fill:darkorange", transform="translate(0,0)"></rect>
+      <rect width="100", height="105", style="fill:darkorange", transform="translate(160,0)"></rect>
+      <rect width="100", height="105", style="fill:darkorange", transform="translate(340,0)"></rect>
+      <rect width="80", height="105", style="fill:darkorange", transform="translate(520,0)"></rect>
+    </svg>
+    <div style="float:right">
+    <h2>How To Play:</h2>
+    <p><h3>
+      The goal is to land the frog in all three purple targets to get to the next level.
+    </h3></p>
+    <p><h3>
+      The speed of all moving objects increase with every level.
+    </h3></p>
+    <h2>Hazards:</h2>
+    <p><h3>
+      If the frog collides with the red car or yellow bus, it will be game over.
+    </h3></p>
+    <p><h3>
+      If the frog falls into the river, it will also be game over.
+    </h3></p>
+    <p><h3>
+      If the frog gets bitten by a thin green snake, the frog will turn into a snake and move with the snakes. 
+    </h3></p>
+    <p><h3>
+      You will need to manually restart if you turn into a snake!
+    </h3></p>
+    <p><h3>
+      If the frog stands on a dark green crocodile for more than 2.5 seconds, the frog will get eaten by the crocodile,
+    </h3></p>
+    <p><h3>
+       resulting in game over.
+    </h3></p>
+    <p><h2>Features:</h2></p>
+    <p><h3>
+      The frog can wrap around the map horizontally.
+    </h3></p>
+    <p><h3>
+      A double jump powerup will randomly spawn on the map every level.
+    </h3></p>
+    <p><h3>
+      The double jump powerup will allow the frog to jump two times the distance!
+    </h3></p>
+  </div>
+</div>
+<h2>Controls: </h2>
+<p><h3>Up: W | Left: A | Down: S | Right: D | Restart: R</h3></p>
+  </body>
+</html>
+
